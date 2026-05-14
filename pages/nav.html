@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation file</title>
+    <link rel="stylesheet" href="../styles/nav.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+     fetch('nav.html')
+     .then(response => response.text())
+     .then(data => {
+    document.getElementById('nav-placeholder').innerHTML = data;
+    });
+    </script>
+    <div class="page-title"> 
+        <p>GRAPH 130</p>
+    </div>
+    <nav class="hamish">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../theater-bill.html">Theater Bill</a></li>
+            <li><a href="../history.html">History</a></li>
+            <li><a href="../stew-recipe.html">Stew Recipe</a></li>
+            <li><a href="../cascades.html">Cascades</a></li>
+            <li><a href="../orchas.html">Orcas Island</a></li>
+            <li><a href="../lopez.html">Lopez Island</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

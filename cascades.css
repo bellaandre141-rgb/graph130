@@ -1,0 +1,50 @@
+*body { 
+    background-image: url(../images/cascade_mountains-bg.jpg);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: 344E5F;
+} 
+
+.header, section, aside, footer, figure {
+    display: block;
+}
+
+.header { 
+    background-color: white;
+    color: 44a5bd;
+    padding-top: 25px;
+} 
+
+.header h1 { 
+   margin-left: 15px;
+   font-size: 30px;
+}
+
+.header h2 { 
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.nav ul {
+    text-align: center;
+    list-style: none;
+    background-color: cream;
+    margin-bottom: 15px;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    padding: 9px;
+    display:block;
+    width:100px;
+    text-decoration: none;
+    background-color: 44a5bd;
+    color: white;
+}
+.nav a:hover {
+    background-color: 344E5F;
+}
