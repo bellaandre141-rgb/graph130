@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabella's Website</title>
+    <title>Isabella's Website</title> 
+    <link href="styles/homepage.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mobile.css">
     <style>
@@ -17,9 +18,20 @@
         }
     </style>
 </head>
-<body>
-    <h1>Hi! My name is Isabella and this is my first webpage.</h1>
-    <h2>School & Course</h2>
+<body> 
+    <header> 
+        <h1>Isabella Olsen</h1>
+        <nav>
+            <a href="#work"><p>work</p></a>
+            <a href="#cv"><p>cv</p></a>
+            <a href="#contact"><p>contact</p></a>
+
+        </nav>
+    </header>
+    <main> 
+       <aside>
+    <img class="faze" src="images/bruce-lee.jpg" alt="profile image">
+    <h3>School & Course</h3>
     <p>Evcc Graph130</p>
     <h3>How many quarters have you attended at EvCC?</h3>
     <p>I have attended 3 quarters at EvCC, and I am currently in my 4th quarter.</p>
@@ -30,6 +42,35 @@
     <h3> What artist inspires you the most?</h3>
     <p>I am most inspired by traditional artists such as Vincent van Gogh and Claude Monet, because they use a lot of fun color theory and flowy whimsical brush strokes in their pieces.</p>
     <h3>What is your favorite color?</h3>
-    <p style="color: #b16fb9;">My favorite color is purple, speficially lavender and lilac shades. They are very calming colors to me that I think are very beautiful in any setting. In terms of hex code, I like #b16fb9.</p>
+    <p style="color: #b16fb9;">My favorite color is purple, speficially lavender and lilac shades. They are very calming colors to me that I think are very beautiful in any setting. In terms of hex code, I like #b16fb9.</p> 
+    </aside>
+    <article id="work">  
+        <section class="project id=history"> 
+            <a href="pages/history-refactor.html"><p>history project</p></a>
+        </section> 
+        <section class="project id=theater"> 
+            <a href="pages/theater.html"><p>theater project</p></a>
+        </section> 
+        <section class="project id=stew"> 
+            <a href="pages/stew-recipe.html"><p>stew project</p></a>
+        </section> 
+        <section class="project id=cascades"> 
+            <a href="pages/cascades.html"><p>cascades: mobile project</p></a>
+        </section> 
+        <section class="project id=fluid"> 
+            <a href="pages/fluid.html"><p>fluid dimensions project</p></a>
+        </section> 
+        <section class="project id=orcas"> 
+            <a href="pages/orcas.html"><p>orcas island project</p></a>
+        </section> 
+        <section class="project id=lopez"> 
+            <a href="pages/lopez.html"><p>lopez island project</p></a>
+        </section> 
+        <section class="project id=media"> 
+            <a href="pages/media.html"><p>media queries project</p></a>
+        </section>
+
+    </article>
+</main>
 </body>
 </html>

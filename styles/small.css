@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto Slab', serif;
     margin:0px;
     padding:0px;
     color: #344e5f;
@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 figure {
-    margin-left: 0;
+    margin: 0;
 }
 
 figcaption {
@@ -116,5 +116,5 @@ h1 {
 
 h1,h2,h3 {
     padding-left: 1.4em;
-    font-family: Cabin, cursive;
+    font-family: 'Cabin Sketch', cursive;
 }

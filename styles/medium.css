@@ -42,4 +42,19 @@ body {
     padding-bottom:.6em;
 }
 
+nav li { 
+    display: inline-block;
+}
+
+nav a, nav a:link, nav a:visited { 
+    padding:1em;
+    display:inline-block;
+    width:100%;
+    border:1px solid #44a5b5;
+}
+
+nav ul { 
+    padding:1.2em;
+    margin-top:7em;
+}
 

@@ -1,0 +1,93 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #f5f5f5;
+}
+/* create a flex container for the header, main and footer elements */
+header, main, footer { 
+    display: flex;
+    width:85%;
+    margin:20px auto;
+    justify-content: space-between;
+}
+/* create even space in the header and footer navs*/
+nav { 
+    display:flex; 
+    justify-content: space-evenly;
+    width:80%;
+}
+
+nav a { 
+    border-left: 1px solid black;
+    justify-content: center;
+    align-content:center;
+    padding-left: 15px;
+    text-decoration: none;
+    color:black;
+    width:100%
+}
+
+nav a:hover { 
+    width:20%;
+}
+
+aside p { 
+    margin: 20px 20px 20px 0px;
+}
+
+.faze { 
+    width: 80%;
+    height:auto;
+    filter:greyscale(100%);
+    transition: 1s;
+    box-shadow: 2px 2px 10px black;
+}
+
+.faze:hover { 
+    filter: none;
+}
+
+article { 
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+
+}
+
+.project { 
+    filter:greyscale(100%);
+    background-size: cover;
+    min-width: 300px;
+    min-height: 300px;
+    width: 33.3%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+.project:first-child { 
+    width: 99.9%;
+    background-position: center;
+}
+
+.project:hover { 
+    filter: none;
+}
+
+.project p { 
+    color: white; 
+    text-shadow:8px 8px 20px, black;
+    font-size:25px;
+}
+
+.project a { 
+    padding:100px 200px;
+    text-decoration: none;
+}
+/*indivisual project background images*/
+
