@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 :root {
     --blue:#11467d;
     --green: #4c7335;
