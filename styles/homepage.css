@@ -90,4 +90,21 @@ article {
     text-decoration: none;
 }
 /*indivisual project background images*/
-
+#theater { 
+    background-image: url('../images/forest.jpg');
+}
+#cascades { 
+    background-image: url('../images/cascade_mountains.jpg');
+}
+#fluid { 
+    background-image: url('../images/bruce-lee.jpg');
+}
+#media { 
+    background-image: url('../images/history-hero-bg.jpg');
+}
+#stew-recipe { 
+    background-image: url('../images/sj-images/sj-057.jpg');
+}
+#orcas { 
+    background-image: url('../images/sj-images/sj-062.jpg');
+}
